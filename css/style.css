@@ -1,0 +1,427 @@
+/*
+
+Website: Circle Of Quran
+Author: Ruhul Amin
+Author URI: //ruhul-amin.info
+Version: 1.0.0
+
+======================================
+
+===== Table Of Content ==============
+1. header part
+2. slider part 
+3. about part 
+4. our service
+5. counter part
+6. Quran Bitoron
+7. Video part 
+8. footer part
+
+*/
+
+
+/* fonts start */
+@font-face {
+    font-family: Nato;
+    src: url(../fonts/Nato.ttf);
+}
+@font-face {
+    font-family: NiladriNodia;
+    src: url(../fonts/NiladriNodia.ttf);
+}
+@font-face {
+    font-family: AdorShodesh;
+    src: url(../fonts/AdorShodesh.ttf);
+}
+/* fonts end */
+
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+body{
+    font-family: Nato, sans-serif;
+}
+/* common css end */
+
+
+
+/*===================== header part start =====================*/
+.site_header{
+    background-color: #941A1E;
+    padding: 5px 0;
+}
+.title_part .title_text,
+.title_part .logo{
+    display: inline-block;
+}
+.title_part .logo img{
+    width: 70px;
+    margin-top: 7px
+}
+.title_part .title_text p,
+.title_part .title_text h1{
+    color: #fff;
+    font-family: Nato, sans-serif;
+    font-weight: 400;
+}
+
+.title_part .title_text p{
+    font-size: 17px;
+}
+.title_part .title_text h1{
+    margin-top: 10px; 
+    margin-bottom: 0;
+    font-size: 70px;
+    font-family: AdorShodesh, sans-serif;
+}
+ 
+.header_menu ul li { 
+    margin-top: 38px;
+}
+.header_menu ul li a i{
+    margin: 10px 10px;
+    display: block;
+    background-color: #fff;
+    color: #941A1E;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.header_menu ul li a.header_menu_button{
+    margin: 12px 10px;
+    display: block;
+    padding: 7px 15px;
+    background-color: #fff;
+    color: #941A1E;
+    border-radius: 5px; 
+    border: 1px solid transparent;
+    transition: .4s;
+} 
+.header_menu ul li a.donate_button{
+    background-color: green;
+    color: #fff;
+}
+
+.header_menu ul li a i:hover,
+.header_menu ul li a.header_menu_button:hover{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+/*===================== header part end =====================*/
+
+
+/*===================== slider part start =====================*/
+.banner{
+    position: relative; 
+    background-image: url(../images/slider1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner_slider .owl-wrapper-outer{
+    margin-bottom: 30px;
+}
+.custom_nav{
+    background-color: #000;
+}
+#mynav ul li a{
+    color: #fff;
+    font-family: Nato, sans-serif;
+    padding: 10px 15px;
+    transition: .3s;
+}
+#mynav ul li a:hover{
+    background-color: #941A1E;
+}
+#mynav ul li .dropdown-menu{
+    padding: 0;
+    background-color: #941a1e;
+    border-radius: 0;
+}
+/*===================== slider part end =====================*/
+
+
+/*===================== about part start =====================*/
+.about{
+    padding: 60px 0;
+}
+.section_title h2{
+    font-family: AdorShodesh, sans-serif;
+    font-size: 48px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    color: #941A1E
+}
+/*===================== about part end =====================*/
+
+
+/*===================== our service part start =====================*/
+.service{
+    padding: 60px 0; 
+    background-color: #d9d9d9
+} 
+  
+.service .single_service{
+    background: #fff; 
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+    margin-bottom: 30px;
+}
+.service .single_service h2{
+    color: #941A1E;
+    font-weight: 700
+}
+.service .single_service p{
+    color: #434343;
+    margin-bottom: 0
+}
+/*===================== our service part end =====================*/
+
+/*===================== Quran Bitoron part start =====================*/
+.bitoron{
+    padding: 80px 0 60px;
+}
+.bitoron .bitoron_image{
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.3);
+}
+.bitoron .bitoron_image img{
+    width: 100%; 
+}
+/*===================== Quran Bitoron part end =====================*/
+
+/*===================== counter part start =====================*/
+.counter_part{
+    padding: 60px 0; 
+    background-color: #d9d9d9;
+}
+.single_counter{
+    padding: 30px 15px;
+    background-color: #941A1E;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+}  
+.single_counter i{
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 10px
+}
+ 
+.single_counter h2{ 
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.single_counter p{
+    margin-bottom: 0;
+    font-size: 20px; 
+    color: #fff;
+}
+/*===================== counter part end =====================*/
+
+/*===================== video part start =====================*/
+
+.video{
+    padding: 60px 0;
+}
+.video_iframe{
+    border: 1px solid #941A1E;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+    margin-bottom: 25px;
+}
+
+/*===================== video part end =====================*/
+
+/*===================== testimonial part start =====================*/
+/*===================== testimonial part end =====================*/
+.testimonial_section{
+    padding: 60px 0;
+    background-color: #09fff414;
+}
+.testimonial{
+    text-align: center;
+    margin: 20px 30px 40px;
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #6b2014;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    padding: 0 20px 20px;
+    font-size: 15px;
+    color: #333;
+    line-height: auto;
+    border-radius: 25px;
+    border-bottom: 4px solid #6b2014;
+    box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+    margin-bottom: 25px;
+}
+.testimonial .title{
+    display: block;
+    margin: 0 0 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6b2014;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #e4ac01;
+    text-transform: capitalize;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #6b2014;
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{ background: #e4ac01; }
+@media only screen and (max-width: 479px){
+    .testimonial{ padding: 20px 15px 40px; }
+    .testimonial .description{ padding: 0 5px 20px; }
+}
+/*===================== footer part start =====================*/
+footer{
+    padding: 60px 0;
+    background-color: #272727;
+    color: #fff;
+} 
+.footer_description p{
+    color: #b1b1b1;
+}
+.footer_description p span{
+    color: #fff;
+}
+.footer_description ul li {
+    float: left;
+}
+.footer_description ul li a{
+    height: 40px; 
+    width: 40px;
+    display: block;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid #b1b1b1;
+    text-align: center; 
+    transform: rotate(45deg);
+    line-height: 42px;
+    transition: all .5s;
+}
+.footer_description ul li a i{
+    transform: rotate(-45deg);
+    color: #b1b1b1;
+    transition: all .5s;
+}
+.footer_description ul li a:hover{
+    background-color: #941A1E;
+    border-color: #941A1E;
+}
+.footer_description ul li a:hover i{
+    color: #fff;
+}
+.footer_link a{
+    color: #b1b1b1;
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #b1b1b1;
+    transition: all .5s; 
+}
+.footer_link a:hover{
+    color: #fff;
+    border-color: #fff;
+}
+.footer_form input,
+.footer_form textarea{
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #b1b1b1;
+}
+.footer_form input:focus,
+.footer_form textarea:focus{
+    outline: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: #fff; 
+}
+.footer_form input[type=submit]{
+    color: #b1b1b1;
+}
+/*===================== footer part end =====================*/
+
+
+/*===================== Gallery page start =====================*/
+.gallery{
+    padding: 60px 0;
+    background-color: #d9d9d9
+}
+.single_image{
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.single_image img{
+    width: 100%;
+}
+.single_image .overlay{
+    position: absolute;
+    top: 100%;
+    transition: .5s;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+}
+.single_image:hover .overlay{
+    top: 0;
+}
+.single_image .overlay p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+    transition: all .2s;
+}
+.single_image:hover .overlay p{
+    opacity: 1;
+}
+/*===================== Gallery page end =====================*/
+

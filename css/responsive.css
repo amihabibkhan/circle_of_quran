@@ -1,0 +1,55 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title_part .title_text h1 { 
+        font-size: 61px; 
+    }
+
+    .title_part .title_text p {
+        font-size: 14px;
+    }
+
+    .header_menu ul li a i {
+        margin: 10px 5px;
+    }
+    .banner{
+        height: 400px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_menu ul li {
+        margin-top: 0px;
+    }
+    .banner{
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner{
+        height: 250px;
+    }
+    .single_counter{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .title_part .title_text h1 { 
+        font-size: 44px; 
+    }
+
+    .title_part .title_text p {
+        font-size: 15px;
+    }
+    .banner{
+        height: 200px;
+    }
+    .single_counter{
+        margin-bottom: 30px;
+    }
+}
